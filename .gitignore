@@ -1,1 +1,51 @@
-.sistema-bancario/src/Database/Connection.php
+# Banco de dados
+database/banco.sqlite
+database/banco.sqlite-*
+
+# Logs
+storage/logs/
+storage/logs/*
+*.log
+
+# Backups
+storage/backups/
+storage/backups/*
+
+# Cache e arquivos temporários
+storage/cache/
+storage/cache/*
+*.tmp
+*.temp
+
+# Dependências (futuro composer)
+vendor/
+composer.lock
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+
+# Node modules (caso use npm futuro)
+node_modules/
+
+# Arquivos PHP específicos
+*.cache
+opcache/
+
+# Arquivos de teste temporários
+tests/temp/
+tests/output/
